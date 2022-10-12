@@ -4,6 +4,7 @@ import Experience from "../Experience.js";
 
 import GSAP from "gsap"
 
+
 export default class Room {
     constructor() {
         this.experience = new Experience();
@@ -40,31 +41,34 @@ export default class Room {
             y: 1,
             z: 1,
             delay: 0.5,
-            ease: "back.out(0.5)",
+            ease: "back.inout(2.5)",
             
             duration: 1.5,  
             
-        })
+        },"same")
 
         this.timeline.to(this.text1, {
             // fontSize: 35,
             opacity: 1,
+            delay: 1,
             ease: "Sine.easeInOut",
-            duration: 0.85,  
+            duration: 1,  
             
         },"same")
         this.timeline.to(this.text2, {
             // fontSize: 15,
+            delay: 1,
             opacity: 1,
             ease: "Sine.easeInOut",
-            duration: 0.85,  
+            duration: 1,  
             
         },"same")
         this.timeline.to(this.text3, {
             // fontSize: 15,
+            delay: 1,
             opacity: 1,
             ease: "Sine.easeInOut",
-            duration: 0.85,  
+            duration: 1,  
             
         },"same")
 

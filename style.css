@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 *{
   margin: 0;
@@ -78,7 +82,7 @@
 
 .introtext {
   display: flex-end;
-  font-family: 'Arvo', serif;
+  font-family: 'Pacifico', cursive;
   color: rgb(10, 10, 10);
   position: fixed;
   width: 100%;
@@ -87,11 +91,13 @@
   font-size: 35px;
   top: 2rem;
   opacity: 0;
+  user-select:none;
 }
 
 .introtext2 {
   display: flex-end;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif; */
+  font-family: 'Silkscreen', cursive;
   color: rgb(10, 10, 10);
   position: fixed;
   width: 100%;
@@ -100,10 +106,12 @@
   font-size: 15px;
   bottom: 2.5rem;
   opacity: 0;
+  user-select:none;
 }
 .introtext3 {
   display: flex-end;
-  font-family: 'Arvo', serif;
+  /* font-family: 'Arvo', serif; */
+  font-family: 'Silkscreen', cursive;
   color: rgb(10, 10, 10);
   position: fixed;
   width: 100%;
@@ -112,5 +120,6 @@
   font-size: 20px;
   bottom: 0.5rem;
   opacity: 0;
+  user-select:none;
 }
 
